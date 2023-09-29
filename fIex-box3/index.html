@@ -1,0 +1,242 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav {
+        width: 100%;
+        height: 20%;
+        background-color: black;
+    }
+
+    .nav .nav1 {
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: orange
+    }
+
+    .nav1 ul {
+        display: flex;
+    }
+
+    .nav1 ul a {
+        margin: 0 15px;
+        text-decoration: none;
+        font-size: 16px;
+        color: black;
+        font-weight: bold;
+    }
+
+    .nav1 ul li {
+        list-style: none;
+    }
+
+    .mid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        height: 70%;
+        width: 100%;
+    }
+
+    .mid .üst {
+        width: 50%;
+        height: 70%;
+        background-color: orange;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .mid .orta {
+        width: 50%;
+        background-color: azure;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 30%;
+        margin-top: 15px;
+    }
+
+    .orta div {
+        background-color: orange;
+        height: 100%;
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .mid .orta2 {
+        display: flex;
+        width: 50%;
+        height: 30%;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .orta2 div {
+        background: white;
+        width: 25%;
+        height: 100%;
+    }
+
+    .container .alt {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .alt1 {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .alt1 .box1 {
+        width: 50%;
+        height: 100%;
+    }
+
+    .alt1 .box2 {
+        width: 50%;
+        background-color: orange;
+        height: 100%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .footer {
+        display: flex;
+        width: 100%;
+        background-color: orange;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+    }
+    .footer1{
+        width: 50%;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="nav1">
+                <h1 style="font-style: italic;">Web Tasarım</h1>
+                <ul>
+                    <li><a href="">Anasayfa</a></li>
+                    <li><a href="">Ürünler</a></li>
+                    <li><a href="">Galeri</a></li>
+                    <li><a href="">Referanslar</a></li>
+                    <li><a href="">İletişim</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mid">
+            <div class="üst">
+                <h1>960x360</h1>
+            </div>
+            <div class="orta">
+                <div>290x180</div>
+                <div>290x180</div>
+                <div>290x180</div>
+            </div>
+            <div class="orta2">
+                <div>
+                    <p style="color: black;">, sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div>
+                    <p style="color: black;"> dolor sit amet consectetur adipisicing elit. Quidem, sit!</p>
+                </div>
+                <div>
+                    <p style="color: black;"> ipsum dolor, sit amet consectetur adipisicing elit. Quis, doloribus?</p>
+                </div>
+            </div>
+            <div class="alt">
+                <div class="alt1">
+                    <div class="box1">
+                        <h1>lorem İPsum</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, doloribus.</p>
+                    </div>
+                    <div class="box2">
+                        <h1>450x250</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer1">
+                <div>
+                    <h1>linkler</h1>
+                    <ul>
+                        <li>Web Tasarım</li>
+                        <li>Web Tasarım</li>
+                        <li>Web Tasarım</li>
+                        <li>Web Tasarım</li>
+                    </ul>
+
+                </div>
+                <div>
+                    <h1>linkler</h1>
+                    <ul>
+                        <li>Web Tasarım</li>
+                        <li>Web Tasarım</li>
+                        <li>Web Tasarım</li>
+                        <li>Web Tasarım</li>
+                    </ul>
+
+                </div>
+                <div>
+                    <h1>linkler</h1>
+                    <ul>
+                        <li>Web Tasarım</li>
+                        <li>Web Tasarım</li>
+                        <li>Web Tasarım</li>
+                        <li>Web Tasarım</li>
+                    </ul>
+
+                </div>
+                <div>
+                    <h1>linkler</h1>
+                    <ul>
+                        <li>Web Tasarım</li>
+                        <li>Web Tasarım</li>
+                        <li>Web Tasarım</li>
+                        <li>Web Tasarım</li>
+                    </ul>
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
